@@ -2,7 +2,7 @@
   "name": "go-fullstack-fr-activity",
   "version": "1.0.0",
   "description": "",
-  "main": "main-es2015.bc365c84a3261161e19f.js",
+  "main": "index.html",
   "scripts": {
     "start": "concurrently \"node ./node_modules/.bin/http-server -a localhost -p 8081\"  \"sleep 1 && open http://localhost:8081\""
   },
