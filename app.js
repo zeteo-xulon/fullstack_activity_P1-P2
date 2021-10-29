@@ -6,7 +6,7 @@ const Product = require("./models/Product");
 
 mongoose
 	.connect(
-		"mongodb+srv://pomme:apple1234@cluster0.pk40z.mongodb.net/fullstack_activity?retryWrites=true&w=majority",
+		"mongodb+srv://user:motdepasse@cluster0.pk40z.mongodb.net/fullstack_activity?retryWrites=true&w=majority",
 		{ useNewUrlParser: true, useUnifiedTopology: true }
 	)
 	.then(() => console.log("Connexion à MongoDB Atlas réussie !"))
